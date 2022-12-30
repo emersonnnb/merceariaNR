@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="records.css">
     <title>Crud</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Cadastro de Clientes</h1>
+    </header>
+    <main>
+        <button type="button" class="button">Cadastrar Cliente</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Apelido</th>
+                    <th>Endereco</th>
+                    <th>Celular</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Josinelson</td>
+                    <td>Sadi</td>
+                    <td>Camburi</td>
+                    <td>(21)98532-9098</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Luis Felipe</td>
+                    <td>Bigode</td>
+                    <td>Vilar dos Teles</td>
+                    <td>(21)98132-9008</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Josefa</td>
+                    <td>Zefinha</td>
+                    <td>Caetite</td>
+                    <td>(21)98997-0971</td>
+                    <td>
+                        <button type="button" class="button green">Editar</button>
+                        <button type="button" class="button red">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal"></div>
+    </main>
+    <footer>
+        footer
+    </footer>
 </body>
 </html>
